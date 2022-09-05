@@ -1,0 +1,120 @@
+.grid-wrapper{
+    width: 100%;
+    padding-top: 1rem;
+    margin: auto;
+}
+
+.grid-wrapper .grid-head {
+    width: 100%;
+}
+
+.grid-head h1{
+    font-size: 26px;
+    text-align: left;
+}
+
+.grid-btm{
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid-btm .grid-l .total-reviews{
+    padding-right: 8px;
+    padding-left: 8px;
+    color: black;
+
+}
+
+.grid-btm .grid-l .rev-name{
+    color: black;
+    
+}
+
+
+.grid-r a{
+    color: black;
+}
+
+.grid-r a span:nth-child(1){
+   margin-right: 28px;
+}
+
+.grid-images{
+    width: 100%;
+    margin-top: 18px;
+}
+
+.grid-images .wider-img{
+    width: 100%;
+}
+
+.wider-img img{
+    width: 100%;
+    height:330px;
+    object-fit: cover;
+}
+
+.grid-images .sm-img{
+   width: 100%;
+   box-sizing: border-box;
+   padding-left: 10px;
+   padding-bottom: 10px;
+}
+
+.sm-img img{
+   width: 100%;
+   height: 160px;
+   object-fit: cover;
+   
+}
+
+.hotel-data{
+    width: 70%;
+    margin-top: 20px;
+}
+
+.hotel-feature{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hotel-feature .feature-info h1{
+   font-size: 22px;
+   text-align: left;
+}
+
+.feature-info p {
+    text-align: left;
+}
+
+.hotel-feature .feature-img{
+    
+}
+
+.feature-img img{
+    border-radius: 50%;
+    width: 20%;
+}
+
+.hotel-cart{
+    position: fixed;
+    bottom: 0;
+    right: 8%;
+    width: 30%;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

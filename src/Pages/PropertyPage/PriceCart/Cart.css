@@ -1,0 +1,71 @@
+.price-cart{
+    position: fixed;
+    width: 30%;
+    top: 30%;
+    left: 50%;
+    transform: translate(60%, 50%);
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: rgb(0 0 0 / 12%) 0px 6px 16px;
+    margin-top: 48px;
+}
+
+.price-cart .price-cart-inner .per-night-price{
+    width: 100%;
+    text-align: left;
+}
+
+.per-night-price .price{
+    font-weight: 600;
+}
+
+.per-night-price .night{
+    
+}
+
+.check-in-out-drop{
+    margin-top: 12px;
+}
+.price-cart-inner .check-in-out{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 8px;
+    
+}
+
+.check-in-out .check-in{
+    border-right: 1px solid black;
+    padding: 0 18px;
+    
+}
+
+.check-in-out .check-out{
+    padding: 0 18px;
+    
+}
+
+.check-dropdown{
+    width: 100%;
+    margin-top: 16px;
+}
+
+.check-dropdown [type=button]{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--btn-color--);
+    border: none;
+    padding: 10px 10px;
+   
+}
+
+.check-dropdown [type=button]:hover{
+    background-color: var(--btn-color--);
+    outline: none;
+    box-shadow: none;
+    
+   
+}

@@ -1,0 +1,48 @@
+.review-wrapper{
+    width: 100%;
+}
+
+.review-wrapper .review-count{
+    text-align: left;
+    display: flex;
+    align-items: center;
+
+}
+
+.review-count span{
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.review-progress{
+   width: 100%;
+   margin-top: 24px;
+}
+.rev-left{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rev-right{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.review-progress .rev-name{
+      
+}
+
+.rev-name h1{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+progress::-webkit-progress-bar{
+    background: black;
+}
+
+.rev-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

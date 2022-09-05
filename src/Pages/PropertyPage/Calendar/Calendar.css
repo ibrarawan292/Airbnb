@@ -1,0 +1,35 @@
+.calendar-wrapper{
+    width: 100%;
+}
+
+.calendar-wrapper .calendar-inner{
+     text-align: left;
+}
+
+.calendar-inner h1{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.calendar-inner p{
+    font-size: 14px;
+    color: #717171;
+}
+
+.calendar-picker{
+    text-align: left;
+    margin-top: 40px;
+}
+
+.calendar-reset{
+    text-align: right;
+    margin-left: 60px;
+}
+
+.calendar-reset button{
+      border: none;
+      background: none;
+      border-bottom: 1px solid #000;
+      font-weight: 500;
+
+}

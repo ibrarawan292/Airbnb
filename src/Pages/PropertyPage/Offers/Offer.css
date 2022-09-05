@@ -1,0 +1,37 @@
+.offer-wrapper{
+    width: 100%;
+}
+
+.offer-wrapper .offer-title{
+    text-align: left;
+
+}
+
+.offer-title h1{
+    font-size: 22px;
+}
+.offer-inner{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.offer-left{
+   
+}
+
+.offer-left .icon-text ul{
+     padding-left: 0;
+}
+.icon-text ul li{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.icon-text h1{
+    font-size: 18px !important;
+    font-weight: 350;
+    margin: 0;
+    padding-left: 15px;
+}

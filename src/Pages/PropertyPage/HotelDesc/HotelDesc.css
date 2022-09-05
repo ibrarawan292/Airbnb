@@ -1,0 +1,67 @@
+.hotel-desc-wrapper{
+    width: 100%;
+    padding: 20px 0;
+}
+
+.hotel-desc-wrapper .logo{
+    width: 100%;
+    text-align: left;
+}
+
+.logo img{
+    width: 150px;
+}
+
+.hotel-desc-wrapper .desc{
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+
+}
+
+.desc p{
+
+}
+
+.hotel-desc-wrapper .learn-more-btn{
+    text-align: left;
+    margin: 20px 0; 
+}
+
+.learn-more-btn a{
+    display: block;
+    color: black;
+    font-weight: 600;
+}
+
+.hotel-desc-wrapper .desc-inner{
+    text-align: left;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 24px;
+   
+}
+
+.desc-inner .lang-text{
+    padding-left: 18px;
+}
+
+.lang-text span{
+    font-size: 16px;
+    
+}
+
+span a{
+    color: black;
+    font-weight: 500;
+}
+
+.hotel-desc-wrapper .detail-desc{
+    width: 100%;
+    text-align: left;
+}
+
+.detail-desc p{
+    font-size: 16px;
+}
